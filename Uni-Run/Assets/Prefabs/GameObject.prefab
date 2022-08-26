@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6248365687727768111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6248365687727768109}
+  - component: {fileID: 6248365687727768110}
+  - component: {fileID: 2367134138931851286}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6248365687727768109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248365687727768111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.6089525, y: -1.4169792, z: -92.69531}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6248365687727768110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248365687727768111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f35cc4389d48894fbf9a60020273b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameover: 0
+  isLoggIn: 0
+  idText: {fileID: 0}
+  passText: {fileID: 0}
+  loginUI: {fileID: 0}
+  selectUI: {fileID: 0}
+  gachaUI: {fileID: 0}
+  singupUI: {fileID: 0}
+  idTextForSignup: {fileID: 0}
+  emailTextForSignup: {fileID: 0}
+  passTextForSignup: {fileID: 0}
+  scoreBoard: {fileID: 7002335199535174115, guid: 3957cb90291d37f4d959dab528f2e79b,
+    type: 3}
+  scoreText: {fileID: 880851781967552898, guid: 3d67c25914b5c3c4aa0adf7391c78d5f,
+    type: 3}
+  charSelect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2367134138931851286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248365687727768111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8959d5357e159104d8c6a43265e78e9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectUI: {fileID: 0}
+  gachaUI: {fileID: 0}
+  gunImage: {fileID: 0}
+  rndGuns:
+  - {fileID: 21300000, guid: fcba09c5eda345d45aa4b95253d41feb, type: 3}
+  - {fileID: 21300000, guid: 55b77d8d78e546441821a21883a16f7c, type: 3}
+  - {fileID: 21300000, guid: 74f45b198346d5e4c81010db61ca9a6c, type: 3}
+  - {fileID: 21300000, guid: 7882ec1e47125e14da5eb55abd9f5d7d, type: 3}
+  - {fileID: 21300000, guid: a165f8c8f799a2e4f9a22a04afd7c354, type: 3}
+  - {fileID: 21300000, guid: 3d4c7c6c636c68b47b218bd50213857a, type: 3}
+  - {fileID: 21300000, guid: 6f2447bbbd89f82459c53b5441fe8e7c, type: 3}
+  - {fileID: 21300000, guid: e1d3477b437118e438b12d54fd0c0a55, type: 3}
+  - {fileID: 21300000, guid: 4c2cc05d82b6687488ef08754fc1ed97, type: 3}
+  - {fileID: 21300000, guid: 6121ea65cb5c2ad47b4fede8d4a77ca4, type: 3}
+  - {fileID: 21300000, guid: 835af8f8eb103dc4e8b69c5e99f60597, type: 3}
+  - {fileID: 21300000, guid: 719c4e81661fc33499d46e45e8343560, type: 3}
+  - {fileID: 21300000, guid: 485a59ed987e50146a8d3bf5c4fab5f7, type: 3}
